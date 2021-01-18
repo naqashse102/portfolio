@@ -22,4 +22,10 @@ router.get('/quaestorcoinapp', function(req, res, next) {
   res.sendFile('quaestorcoinapp.html', {root: path.join(__dirname, '../public/portfolio') })
 });
 
+/* GET lesfloralies listing. */
+router.get('/quaestorcoin', function(req, res, next) {
+  res.sendFile('quaestorcoin.html', {root: path.join(__dirname, '../public/portfolio') })
+});
+
+
 module.exports = router;
