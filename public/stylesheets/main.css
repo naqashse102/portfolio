@@ -1785,6 +1785,7 @@ a {
 }
 a:active,
 a:hover {
+  color: unset;
   outline: 0;
 }
 abbr[title] {

@@ -27,5 +27,10 @@ router.get('/quaestorcoin', function(req, res, next) {
   res.sendFile('quaestorcoin.html', {root: path.join(__dirname, '../public/portfolio') })
 });
 
+/* GET Gharse listing. */
+router.get('/gharse', function(req, res, next) {
+  res.sendFile('gharsemobileapp.html', {root: path.join(__dirname, '../public/portfolio') })
+});
+
 
 module.exports = router;
