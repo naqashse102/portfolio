@@ -2077,7 +2077,7 @@ table {
 .highlight .il {
   color: #099;
 }
-.tech-icon-angular {
+/* .tech-icon-angular {
   background: url(../images/tech-icons.03c20ccf.png) no-repeat;
 }
 .tech-icon-chef {
@@ -2114,7 +2114,7 @@ table {
 }
 .tech-icon-wordpress {
   background: url(../images/tech-icons.03c20ccf.png) -385px 0 no-repeat;
-}
+} */
 *,
 :after,
 :before {
@@ -3026,6 +3026,7 @@ html:not(.platform-mac) .site-sidebar .block-blog {
   padding: 4px 10px;
   font-size: 13px;
   text-transform: uppercase;
+  margin-right: 10px;
 }
 .project-section {
   max-width: 1400px;
@@ -3166,7 +3167,7 @@ body.cv {
   padding: 80px 80px 60px;
   margin: 80px auto;
   background-color: #fff;
-  box-shadow: 2px 2px 1px #606060;
+  box-shadow: 2px 2px 1px #e5e5e5;
 }
 @media print {
   body.cv {
