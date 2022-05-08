@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Sidebar() {
     return (
@@ -41,8 +42,11 @@ function Sidebar() {
 
                     <div className="navigation-extendable">
                         <ul>
-                            <li className=""><a href="/portfolio/">Portfolio</a></li>
-                            <li className=""><a href="/cv/">My CV</a></li>
+                            <li className="">
+                            <Link to={'/portfolio'} >Portfolio</Link>
+                               </li>
+                            <li className="">
+                            <Link to={'/cv'} >My CV</Link></li>
                         </ul>
                     </div>
                 </nav>

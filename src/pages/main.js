@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Main() {
     return (
@@ -17,8 +18,7 @@ function Main() {
                             </h2>
 
                             <div className="home-buttons">
-                                <a href="/portfolio/" className="button button-outline button-white">Portfolio</a>
-
+                                <Link to={'/portfolio'} className="button button-outline button-white" >Portfolio</Link>
                             </div>
                         </div>
                     </div>

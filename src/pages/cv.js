@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Cv() {
     return (
@@ -23,7 +24,7 @@ function Cv() {
                         <div className="cv-header-meta-right">
 
                             <div className="cv-header-meta-row">
-                                <a href="https://naqashse102.me/" rel="me" className="u-url">naqashse102</a>
+                                <Link to="/" rel="me" className="u-url">naqashse102</Link>
                             </div>
                             <div className="cv-header-meta-row">
                                 <a href="mailto:naqash.ahmad@outlook.com" className="u-email"><span>naqash.ahmad@outlook.com</span></a>

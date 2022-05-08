@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from "react-dom/client";
 
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 
 import './index.css';
 import reportWebVitals from './reportWebVitals';
@@ -18,20 +18,20 @@ class Root extends React.Component {
 
   render() {
     return (
-          <BrowserRouter>
+          <HashRouter basename={`${process.env.PUBLIC_URL}`}>
               <Routes>
-                <Route exact path={`${process.env.PUBLIC_URL}/`} element={<RouteWrapper component={Main} layout={App} />} />
-                <Route exact path={`${process.env.PUBLIC_URL}/portfolio`} element={<RouteWrapper component={Portfolio} layout={App} />} />
-                <Route exact path={`${process.env.PUBLIC_URL}/cv`} element={<RouteWrapper component={Cv} layout={(props) => <App hideSidebar={true} {...props} />} />} />
+                <Route exact path={`/`} element={<RouteWrapper component={Main} layout={App} />} />
+                <Route exact path={`/portfolio`} element={<RouteWrapper component={Portfolio} layout={App} />} />
+                <Route exact path={`/cv`} element={<RouteWrapper component={Cv} layout={(props) => <App hideSidebar={true} {...props} />} />} />
 
-                <Route exact path={`${process.env.PUBLIC_URL}/portfolio/gharse`} element={<RouteWrapper component={Gharsemobileapp} layout={App} />} />
-                <Route exact path={`${process.env.PUBLIC_URL}/portfolio/lesfloralies`} element={<RouteWrapper component={Lesfloralies} layout={App} />} />
-                <Route exact path={`${process.env.PUBLIC_URL}/portfolio/loyalwallet`} element={<RouteWrapper component={Loyalwallet} layout={App} />} />
-                <Route exact path={`${process.env.PUBLIC_URL}/portfolio/quaestorcoin`} element={<RouteWrapper component={Quaestorcoin} layout={App} />} />
-                <Route exact path={`${process.env.PUBLIC_URL}/portfolio/quaestorcoinapp`} element={<RouteWrapper component={Quaestorcoinapp} layout={App} />} />
+                <Route exact path={`/portfolio/gharse`} element={<RouteWrapper component={Gharsemobileapp} layout={App} />} />
+                <Route exact path={`/portfolio/lesfloralies`} element={<RouteWrapper component={Lesfloralies} layout={App} />} />
+                <Route exact path={`/portfolio/loyalwallet`} element={<RouteWrapper component={Loyalwallet} layout={App} />} />
+                <Route exact path={`/portfolio/quaestorcoin`} element={<RouteWrapper component={Quaestorcoin} layout={App} />} />
+                <Route exact path={`/portfolio/quaestorcoinapp`} element={<RouteWrapper component={Quaestorcoinapp} layout={App} />} />
 
               </Routes>
-          </BrowserRouter>
+          </HashRouter>
     );
   }
 }

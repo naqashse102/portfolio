@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Portfolio() {
     return (
@@ -19,13 +20,12 @@ function Portfolio() {
 
                                 <div className="timeline_element-contents">
                                     <div className="project-text">
-                                        <a href="/portfolio/gharse" className="project-link">
-                                            <div className="project-title">Gharse</div>
+                                        <Link to={'/portfolio/gharse'}  className="project-link">
+                                        <div className="project-title">Gharse</div>
                                             <div className="project-subtitle">On-Demand home services mobile app
                                                 <strong>(Done Solely)</strong>
                                             </div>
-                                        </a>
-
+                                        </Link>
                                         <div className="project-description">
 
                                             <p><em>GharSe offers a marketplace to help deliver quality home-based covid-protected barber services in Pakistan.
@@ -40,10 +40,8 @@ function Portfolio() {
                                             </ul>
 
                                         </div>
-
-                                        <a href="/portfolio/gharse" className="project-readmore button button-red">
-                                            More details
-                                        </a>
+                                        
+                                        <Link to={'/portfolio/gharse'}  className="project-readmore button button-red">More details</Link>
 
                                         <div className="project-technologies">
                                             <div className="technologies-title">Technologies</div>
@@ -66,9 +64,8 @@ function Portfolio() {
 
 
                                     <div className="project-image">
-                                        <a href="/portfolio/gharse">
-                                            <img src={`${process.env.PUBLIC_URL}/images/gharse.png`} alt="gharseapp" />
-                                        </a>
+                                    <Link to={'/portfolio/gharse'}  ><img src={`${process.env.PUBLIC_URL}/images/gharse.png`} alt="gharseapp" /></Link>
+
                                     </div>
 
                                 </div>
@@ -81,10 +78,11 @@ function Portfolio() {
 
                                 <div className="timeline_element-contents">
                                     <div className="project-text">
-                                        <a href="/portfolio/quaestorcoin" className="project-link">
-                                            <div className="project-title">Quaestor Coin</div>
+                                    <Link to={'/portfolio/quaestorcoin'}  className="project-link">
+                                    <div className="project-title">Quaestor Coin</div>
                                             <div className="project-subtitle">A cryptocurrency based web wallet</div>
-                                        </a>
+                                        </Link>
+
 
                                         <div className="project-description">
 
@@ -101,9 +99,9 @@ function Portfolio() {
 
                                         </div>
 
-                                        <a href="/portfolio/quaestorcoin" className="project-readmore button button-red">
+                                        <Link to="/portfolio/quaestorcoin" className="project-readmore button button-red">
                                             More details
-                                        </a>
+                                        </Link>
 
                                         <div className="project-technologies">
                                             <div className="technologies-title">Technologies</div>
@@ -131,9 +129,9 @@ function Portfolio() {
 
 
                                     <div className="project-image">
-                                        <a href="/portfolio/quaestorcoin">
+                                        <Link to="/portfolio/quaestorcoin">
                                             <img src={`${process.env.PUBLIC_URL}/images/questorcoinweb.png`} alt="loyalwallet" />
-                                        </a>
+                                        </Link>
                                     </div>
 
                                 </div>
@@ -146,12 +144,12 @@ function Portfolio() {
 
                                 <div className="timeline_element-contents">
                                     <div className="project-text">
-                                        <a href="/portfolio/quaestorcoinapp" className="project-link">
+                                        <Link to="/portfolio/quaestorcoinapp" className="project-link">
                                             <div className="project-title">Quaestor Coin Desktop App</div>
                                             <div className="project-subtitle">A cryptocurrency based desktop wallet
                                                 <strong>(Done Solely)</strong>
                                             </div>
-                                        </a>
+                                        </Link>
 
                                         <div className="project-description">
 
@@ -168,9 +166,9 @@ function Portfolio() {
 
                                         </div>
 
-                                        <a href="/portfolio/quaestorcoinapp" className="project-readmore button button-red">
+                                        <Link to="/portfolio/quaestorcoinapp" className="project-readmore button button-red">
                                             More details
-                                        </a>
+                                        </Link>
 
                                         <div className="project-technologies">
                                             <div className="technologies-title">Technologies</div>
@@ -208,9 +206,9 @@ function Portfolio() {
 
 
                                     <div className="project-image">
-                                        <a href="/portfolio/quaestorcoinapp">
+                                        <Link to="/portfolio/quaestorcoinapp">
                                             <img src={`${process.env.PUBLIC_URL}/images/questorcoin3.PNG`} alt="loyalwallet" />
-                                        </a>
+                                        </Link>
                                     </div>
 
                                 </div>
@@ -223,10 +221,10 @@ function Portfolio() {
 
                                 <div className="timeline_element-contents">
                                     <div className="project-text">
-                                        <a href="/portfolio/loyalwallet" className="project-link">
+                                        <Link to="/portfolio/loyalwallet" className="project-link">
                                             <div className="project-title">Loyal Wallet</div>
                                             <div className="project-subtitle">A cryptocurrency based wallet</div>
-                                        </a>
+                                        </Link>
 
                                         <div className="project-description">
 
@@ -239,9 +237,9 @@ function Portfolio() {
 
                                         </div>
 
-                                        <a href="/portfolio/loyalwallet" className="project-readmore button button-red">
+                                        <Link to="/portfolio/loyalwallet" className="project-readmore button button-red">
                                             More details
-                                        </a>
+                                        </Link>
 
                                         <div className="project-technologies">
                                             <div className="technologies-title">Technologies</div>
@@ -274,9 +272,9 @@ function Portfolio() {
 
 
                                     <div className="project-image">
-                                        <a href="/portfolio/loyalwallet/">
+                                        <Link to="/portfolio/loyalwallet/">
                                             <img src={`${process.env.PUBLIC_URL}/images/loyalwallet.png`} alt="loyalwallet" />
-                                        </a>
+                                        </Link>
                                     </div>
 
                                 </div>
@@ -289,10 +287,10 @@ function Portfolio() {
 
                                 <div className="timeline_element-contents">
                                     <div className="project-text">
-                                        <a href="/portfolio/lesfloralies" className="project-link">
+                                        <Link to="/portfolio/lesfloralies" className="project-link">
                                             <div className="project-title">Les Floralies</div>
                                             <div className="project-subtitle">Online POS based system</div>
-                                        </a>
+                                        </Link>
 
                                         <div className="project-description">
 
@@ -308,9 +306,9 @@ function Portfolio() {
 
                                         </div>
 
-                                        <a href="/portfolio/lesfloralies" className="project-readmore button button-red">
+                                        <Link to="/portfolio/lesfloralies" className="project-readmore button button-red">
                                             More details
-                                        </a>
+                                        </Link>
 
                                         <div className="project-technologies">
                                             <div className="technologies-title">Technologies</div>
@@ -340,9 +338,9 @@ function Portfolio() {
 
 
                                     <div className="project-image">
-                                        <a href="/portfolio/lesfloralies/">
+                                        <Link to="/portfolio/lesfloralies/">
                                             <img src={`${process.env.PUBLIC_URL}/images/lesfloralies.png`}alt="LesFloralies" />
-                                        </a>
+                                        </Link>
                                     </div>
 
                                 </div>
