@@ -6,7 +6,7 @@ function Cv() {
             <div className="cv-page-inner">
                 <div className="cv-section cv-header p-contact h-card">
                     <div className="cv-header-avatar cv-header-avatar-circle">
-                        <img src={`${process.env.PUBLIC_URL}/images/ProfilePhoto.jpg`} />
+                        <img src={`${process.env.PUBLIC_URL}/images/ProfilePhoto.jpg`} alt="profilephoto" />
                     </div>
                     <div className="cv-header-text">
                         <h1 className="cv-header-name p-name">
@@ -80,7 +80,7 @@ function Cv() {
                                     <div className="cv-timeline-company">Smart IS</div>
                                     <div className="cv-timeline-date">Jul 2019 - (Continue)</div>
                                     <a href="https://www.smart-is.com/" target="_blank"
-                                        className="cv-timeline-website">smart-is.com</a>
+                                        className="cv-timeline-website" rel="noreferrer">smart-is.com</a>
                                 </div>
                                 <div className="cv-timeline-body p-summary">
                                     <h4 className="cv-timeline-position p-name">
@@ -140,7 +140,7 @@ function Cv() {
                                     <div className="cv-timeline-date">Mar 2018 - Jun 2019</div>
 
                                     <a href="https://ideofuzion.com/" target="_blank"
-                                        className="cv-timeline-website">ideofuzion.com</a>
+                                        className="cv-timeline-website" rel="noreferrer">ideofuzion.com</a>
 
                                 </div>
                                 <div className="cv-timeline-body p-summary">
@@ -190,7 +190,7 @@ function Cv() {
                                     </div>
                                     <div className="cv-timeline-date">2013 - 2018</div>
                                     <a href="https://iiu.edu.pk/default.htm" target="_blank"
-                                        className="cv-timeline-website">iiu.edu.pk</a>
+                                        className="cv-timeline-website" rel="noreferrer">iiu.edu.pk</a>
                                 </div>
                                 <div className="cv-timeline-body p-summary">
                                     <div className="cv-timeline-position p-name">Bachelors in Software Engineering</div>

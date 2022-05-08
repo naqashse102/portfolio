@@ -45,20 +45,20 @@ function Loyalwallet() {
                         <ul className="tech-tags">
 
 
-                            <li><a href='https://nodejs.org/en/' rel='nofollow' target='_blank'>Nodejs</a>
+                            <li><a href='https://nodejs.org/en/' rel="nofollow noreferrer" target='_blank'>Nodejs</a>
                             </li>
 
-                            <li><a href="https://sequelize.org/" rel='nofollow' target='_blank'>Sequelize ORM</a></li>
+                            <li><a href="https://sequelize.org/" rel="nofollow noreferrer" target='_blank'>Sequelize ORM</a></li>
 
-                            <li><a href="https://jwt.io/" rel='nofollow' target='_blank'>JWT</a></li>
+                            <li><a href="https://jwt.io/" rel="nofollow noreferrer" target='_blank'>JWT</a></li>
 
-                            <li><a href="https://www.mysql.com/" rel='nofollow' target='_blank'>MySQL</a>
+                            <li><a href="https://www.mysql.com/" rel="nofollow noreferrer" target='_blank'>MySQL</a>
                             </li>
 
-                            <li><a href="https://expressjs.com/" rel='nofollow' target='_blank'>ExpressJs</a>
+                            <li><a href="https://expressjs.com/" rel="nofollow noreferrer" target='_blank'>ExpressJs</a>
                             </li>
 
-                            <li><a href="https://www.npmjs.com/package/aws-sdk" rel='nofollow' target='_blank'>AWS
+                            <li><a href="https://www.npmjs.com/package/aws-sdk" rel="nofollow noreferrer" target='_blank'>AWS
                                     SDK</a>
                             </li>
 

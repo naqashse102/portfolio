@@ -48,16 +48,16 @@ function Portfolio() {
                                         <div className="project-technologies">
                                             <div className="technologies-title">Technologies</div>
                                             <ul className="tech-tags">
-                                                <li><a href='https://flutter.dev/' rel='nofollow'
+                                                <li><a href='https://flutter.dev/' rel="nofollow noreferrer"
                                                     target='_blank'>Flutter</a>
                                                 </li>
-                                                <li><a href="https://nodejs.org/en/" rel='nofollow' target='_blank'>Nodejs</a>
+                                                <li><a href="https://nodejs.org/en/" rel="nofollow noreferrer" target='_blank'>Nodejs</a>
                                                 </li>
 
-                                                <li><a href="https://firebase.google.com/" rel='nofollow'
+                                                <li><a href="https://firebase.google.com/" rel="nofollow noreferrer"
                                                     target='_blank'>Firebase</a>
                                                 </li>
-                                                <li><a href="https://stripe.com/" rel='nofollow'
+                                                <li><a href="https://stripe.com/" rel="nofollow noreferrer"
                                                     target='_blank'>Stripe</a>
                                                 </li>
                                             </ul>
@@ -108,13 +108,13 @@ function Portfolio() {
                                         <div className="project-technologies">
                                             <div className="technologies-title">Technologies</div>
                                             <ul className="tech-tags">
-                                                <li><a href='https://nodejs.org/en/' rel='nofollow'
+                                                <li><a href='https://nodejs.org/en/' rel="nofollow noreferrer"
                                                     target='_blank'>Nodejs</a>
                                                 </li>
-                                                <li><a href="https://angular.io/" rel='nofollow' target='_blank'>Angular</a>
+                                                <li><a href="https://angular.io/" rel="nofollow noreferrer" target='_blank'>Angular</a>
                                                 </li>
 
-                                                <li><a href="https://www.npmjs.com/package/quaestor" rel='nofollow'
+                                                <li><a href="https://www.npmjs.com/package/quaestor" rel="nofollow noreferrer"
                                                     target='_blank'>Questor</a>
                                                 </li>
 
@@ -175,27 +175,27 @@ function Portfolio() {
                                         <div className="project-technologies">
                                             <div className="technologies-title">Technologies</div>
                                             <ul className="tech-tags">
-                                                <li><a href='https://www.electronjs.org/' rel='nofollow'
+                                                <li><a href='https://www.electronjs.org/' rel="nofollow noreferrer"
                                                     target='_blank'>ElectronJs</a></li>
-                                                <li><a href='https://nodejs.org/en/' rel='nofollow'
+                                                <li><a href='https://nodejs.org/en/' rel="nofollow noreferrer"
                                                     target='_blank'>Nodejs</a>
                                                 </li>
-                                                <li><a href="https://angular.io/" rel='nofollow' target='_blank'>Angular</a>
+                                                <li><a href="https://angular.io/" rel="nofollow noreferrer" target='_blank'>Angular</a>
                                                 </li>
 
-                                                <li><a href="https://www.npmjs.com/package/electron-packager" rel='nofollow'
+                                                <li><a href="https://www.npmjs.com/package/electron-packager" rel="nofollow noreferrer"
                                                     target='_blank'>Electron Packager</a>
                                                 </li>
 
-                                                <li><a href="https://www.npmjs.com/package/electron-builder" rel='nofollow'
+                                                <li><a href="https://www.npmjs.com/package/electron-builder" rel="nofollow noreferrer"
                                                     target='_blank'>Electron Builder</a>
                                                 </li>
 
                                                 <li><a href="https://www.npmjs.com/package/electron-store?activeTab=dependents"
-                                                    rel='nofollow' target='_blank'>Electron Store</a>
+                                                    rel="nofollow noreferrer" target='_blank'>Electron Store</a>
                                                 </li>
 
-                                                <li><a href="https://www.npmjs.com/package/quaestor" rel='nofollow'
+                                                <li><a href="https://www.npmjs.com/package/quaestor" rel="nofollow noreferrer"
                                                     target='_blank'>Questor</a>
                                                 </li>
                                                 <li>
@@ -247,24 +247,24 @@ function Portfolio() {
                                             <div className="technologies-title">Technologies</div>
                                             <ul className="tech-tags">
 
-                                                <li><a href='https://nodejs.org/en/' rel='nofollow'
+                                                <li><a href='https://nodejs.org/en/' rel="nofollow noreferrer"
                                                     target='_blank'>Nodejs</a>
                                                 </li>
 
-                                                <li><a href="https://sequelize.org/" rel='nofollow'
+                                                <li><a href="https://sequelize.org/" rel="nofollow noreferrer"
                                                     target='_blank'>Sequelize ORM</a></li>
 
-                                                <li><a href="https://jwt.io/" rel='nofollow' target='_blank'>JWT</a></li>
+                                                <li><a href="https://jwt.io/" rel="nofollow noreferrer" target='_blank'>JWT</a></li>
 
-                                                <li><a href="https://www.mysql.com/" rel='nofollow'
+                                                <li><a href="https://www.mysql.com/" rel="nofollow noreferrer"
                                                     target='_blank'>MySQL</a>
                                                 </li>
 
-                                                <li><a href="https://expressjs.com/" rel='nofollow'
+                                                <li><a href="https://expressjs.com/" rel="nofollow noreferrer"
                                                     target='_blank'>ExpressJs</a>
                                                 </li>
 
-                                                <li><a href="https://www.npmjs.com/package/aws-sdk" rel='nofollow'
+                                                <li><a href="https://www.npmjs.com/package/aws-sdk" rel="nofollow noreferrer"
                                                     target='_blank'>AWS SDK</a>
                                                 </li>
 
@@ -316,22 +316,22 @@ function Portfolio() {
                                             <div className="technologies-title">Technologies</div>
                                             <ul className="tech-tags">
 
-                                                <li><a href='https://angular.io/' rel='nofollow' target='_blank'>Angular</a>
+                                                <li><a href='https://angular.io/' rel="nofollow noreferrer" target='_blank'>Angular</a>
                                                 </li>
 
-                                                <li><a href="https://getbootstrap.com/" rel='nofollow'
+                                                <li><a href="https://getbootstrap.com/" rel="nofollow noreferrer"
                                                     target='_blank'>BootStrap</a></li>
 
-                                                <li><a href="http://www.ecma-international.org/ecma-262/6.0/" rel='nofollow'
+                                                <li><a href="http://www.ecma-international.org/ecma-262/6.0/" rel="nofollow noreferrer"
                                                     target='_blank'>Javascript ES6</a></li>
 
-                                                <li><a href="https://www.w3.org/Style/CSS/Overview.en.html" rel='nofollow' target='_blank'>CSS3</a>
+                                                <li><a href="https://www.css3.com/" rel="nofollow noreferrer" target='_blank'>CSS3</a>
                                                 </li>
 
-                                                <li><a href="https://html5.org/" rel='nofollow' target='_blank'>HTML5</a>
+                                                <li><a href="https://html5.org/" rel="nofollow noreferrer" target='_blank'>HTML5</a>
                                                 </li>
 
-                                                <li><a href="https://jquery.com/" rel='nofollow' target='_blank'>JQuery</a>
+                                                <li><a href="https://jquery.com/" rel="nofollow noreferrer" target='_blank'>JQuery</a>
                                                 </li>
 
                                             </ul>

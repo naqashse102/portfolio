@@ -53,11 +53,11 @@ function Quaestorcoin() {
                         <ul className="tech-tags">
 
 
-                            <li><a href='https://nodejs.org/en/' rel='nofollow' target='_blank'>Nodejs</a>
+                            <li><a href='https://nodejs.org/en/' rel="nofollow noreferrer" target='_blank'>Nodejs</a>
                             </li>
-                            <li><a href="https://angular.io/" rel='nofollow' target='_blank'>Angular</a></li>
+                            <li><a href="https://angular.io/" rel="nofollow noreferrer" target='_blank'>Angular</a></li>
 
-                            <li><a href="https://www.npmjs.com/package/quaestor" rel='nofollow'
+                            <li><a href="https://www.npmjs.com/package/quaestor" rel="nofollow noreferrer"
                                     target='_blank'>Questor</a>
                             </li>
                             <li>
@@ -74,7 +74,7 @@ function Quaestorcoin() {
                 </div>
 
 
-                <a href="http://quaestorcoin.com/#/wallet" target='_blank' className="button button-red">
+                <a href="http://quaestorcoin.com/#/wallet" target='_blank' className="button button-red" rel="noreferrer">
                     <i className="fa fa-external-link"></i>
                     View online
                 </a>

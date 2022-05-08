@@ -17,7 +17,7 @@ function Sidebar() {
                 <nav className="block main-navigation">
                     <div className="navigation-extend-bar">
                         <div className="social-icons">
-                            <a rel="me" href="/cdn-cgi/l/email-protection#eb818a888e80ab819f8486c5868e"
+                            <a rel="me" href="mailto:naqash.ahmad@outlook.com"
                                 className="button button-icon u-email" title="mail: naqash.ahmad@outlook.com">
                                 <i className="fa fa-envelope"></i>
                             </a>
@@ -34,9 +34,9 @@ function Sidebar() {
 
                         </div>
 
-                        <a href="#" className="navigation-extend-button js-extend-main-navigation">
+                        {/* <a href="#" className="navigation-extend-button js-extend-main-navigation">
                             <i className="fa fa-bars"></i>
-                        </a>
+                        </a> */}
                     </div>
 
                     <div className="navigation-extendable">

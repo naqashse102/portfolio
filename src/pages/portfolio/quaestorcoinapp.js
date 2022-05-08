@@ -62,25 +62,25 @@ function Quaestorcoinapp() {
                         <ul className="tech-tags">
 
 
-                            <li><a href='https://www.electronjs.org/' rel='nofollow' target='_blank'>ElectronJs</a></li>
-                                <li><a href='https://nodejs.org/en/' rel='nofollow' target='_blank'>Nodejs</a>
+                            <li><a href='https://www.electronjs.org/' rel="nofollow noreferrer" target='_blank'>ElectronJs</a></li>
+                                <li><a href='https://nodejs.org/en/' rel="nofollow noreferrer" target='_blank'>Nodejs</a>
                             </li>
-                            <li><a href="https://angular.io/" rel='nofollow' target='_blank'>Angular</a></li>
+                            <li><a href="https://angular.io/" rel="nofollow noreferrer" target='_blank'>Angular</a></li>
 
-                            <li><a href="https://www.npmjs.com/package/electron-packager" rel='nofollow'
+                            <li><a href="https://www.npmjs.com/package/electron-packager" rel="nofollow noreferrer"
                                     target='_blank'>Electron Packager</a>
                             </li>
 
-                            <li><a href="https://www.npmjs.com/package/electron-builder" rel='nofollow'
+                            <li><a href="https://www.npmjs.com/package/electron-builder" rel="nofollow noreferrer"
                                     target='_blank'>Electron Builder</a>
                             </li>
 
                             <li><a href="https://www.npmjs.com/package/electron-store?activeTab=dependents"
-                                    rel='nofollow' target='_blank'>Electron Store</a>
+                                    rel="nofollow noreferrer" target='_blank'>Electron Store</a>
                             </li>
 
                             <li><a href="https://www.npmjs.com/package/quaestor"
-                                rel='nofollow' target='_blank'>Questor</a>
+                                rel="nofollow noreferrer" target='_blank'>Questor</a>
                         </li>
                         <li>
                             <a href="https://www.npmjs.com/package/bitcore-mnemonic">Bitcore-mnemonic</a>
@@ -93,7 +93,7 @@ function Quaestorcoinapp() {
                 </div>
 
 
-                <a href="https://quaestor.io/wallet" target='_blank' className="button button-red">
+                <a href="https://quaestor.io/wallet" target='_blank' className="button button-red" rel="noreferrer">
                     <i className="fa fa-external-link"></i>
                     View online
                 </a>

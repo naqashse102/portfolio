@@ -60,16 +60,16 @@ function Gharsemobileapp() {
 
                             <ul class="tech-tags">
 
-                                <li><a href='https://flutter.dev/' rel='nofollow'
+                                <li><a href='https://flutter.dev/' rel="nofollow noreferrer"
                                     target='_blank'>Flutter</a>
                                 </li>
-                                <li><a href="https://nodejs.org/en/" rel='nofollow' target='_blank'>Nodejs</a>
+                                <li><a href="https://nodejs.org/en/" rel="nofollow noreferrer" target='_blank'>Nodejs</a>
                                 </li>
 
-                                <li><a href="https://firebase.google.com/" rel='nofollow'
+                                <li><a href="https://firebase.google.com/" rel="nofollow noreferrer"
                                     target='_blank'>Firebase</a>
                                 </li>
-                                <li><a href="https://stripe.com/" rel='nofollow'
+                                <li><a href="https://stripe.com/" rel="nofollow noreferrer"
                                     target='_blank'>Stripe</a>
                                 </li>
                             </ul>
@@ -79,15 +79,15 @@ function Gharsemobileapp() {
                     </div>
 
 
-                    <a href="https://gharse.io/" target='_blank' class="button button-red">
+                    <a href="https://gharse.io/" target='_blank' class="button button-red" rel="noreferrer">
                         <i class="fa fa-external-link"></i>
                         Web
                     </a>
-                    <a href="https://play.google.com/store/apps/details?id=gharse.beehive" target='_blank' class="button button-red">
+                    <a href="https://play.google.com/store/apps/details?id=gharse.beehive" target='_blank' class="button button-red" rel="noreferrer">
                         <i class="fa fa-external-link"></i>
                         Android
                     </a>
-                    <a href="https://apps.apple.com/us/app/gharse-io/id1567846639" target='_blank' class="button button-red">
+                    <a href="https://apps.apple.com/us/app/gharse-io/id1567846639" target='_blank' class="button button-red" rel="noreferrer">
                         <i class="fa fa-external-link"></i>
                         IOS
                     </a>
